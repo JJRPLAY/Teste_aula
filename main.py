@@ -4,4 +4,4 @@ nome: str = input("Qual é o seu nome? ")
 print(f"Olá, {nome}!")
 print(f"Vamos aprender Python juntos! {nome}!")
 print("Qual area de programacao voce vai seguir?")
-
+area: str = input("Digite a area de programacao: ")
