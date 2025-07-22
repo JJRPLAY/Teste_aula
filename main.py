@@ -1,5 +1,5 @@
 import datetime
-import datetime import date
+from datetime import date
 
 print("Olá turma do Python!")
 print("Tudo bem!")
