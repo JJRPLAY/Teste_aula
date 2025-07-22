@@ -1,3 +1,6 @@
+import datetime
+import datetime import date
+
 print("Olá turma do Python!")
 print("Tudo bem!")
 nome: str = input("Qual é o seu nome? ")
