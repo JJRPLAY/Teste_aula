@@ -11,3 +11,12 @@ area: str = input("Digite a area de programacao: ")
 print(f"Que legal, {nome}! Programar em {area} é muito interessante!")
 print("Muito bem vamos fazer algumas atividades envolvidas com Python!\n")
 print("Atividade 1: Crie um programa que peça para introduzir o seu ano de nascimento e diga a sua idade.\n")
+
+def calcular_idade ():
+    try:
+        ano_atual = datetime.date.today().year
+        ano_nascimento = int(input("Insira o seu ano de nascimento: "))
+        idade = ano_atual - ano_nascimento
+        print(f"Você tem {idade} anos.")
+    except ValueError:
+        print("Insira o ano em valores inteiros!")
