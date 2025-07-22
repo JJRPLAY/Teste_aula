@@ -20,3 +20,9 @@ def calcular_idade ():
         print(f"Você tem {idade} anos.")
     except ValueError:
         print("Insira o ano em valores inteiros!")
+while True:
+    calcular_idade()
+    continuar = input("Deseja calcular a idade novamente? (s/n): ").lower()
+    if continuar != 's':
+        print("Obrigado por participar!")
+        break
